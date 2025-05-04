@@ -11,7 +11,7 @@ import static org.junit.Assert.*;
 @RunWith(Parameterized.class)
 public class LionParamTest {
 
-    @Parameterized.Parameter(0)
+    @Parameterized.Parameter
     public String sex;
 
     @Parameterized.Parameter(1)
